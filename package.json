@@ -1,0 +1,30 @@
+{
+  "name": "hololive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "rm -rf build/ && tsc"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.12",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.17.2",
+    "morgan": "~1.9.0",
+    "mysql": "^2.18.1",
+    "serve-favicon": "~2.4.5"
+  },
+  "description": "final exam",
+  "main": "src/hololive.ts",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mysql": "^2.15.19"
+  }
+}
