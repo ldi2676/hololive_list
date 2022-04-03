@@ -9,12 +9,12 @@ app.use(cors())
 const dbc = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
-	password: 'mysql1234',
+	password: 'ik1786329',
 	database: 'hololivedb'
 })
 
 
-app.listen('3000', () => {
+app.listen('3030', () => {
 	dbc.connect();
 	console.log('Server Started')
 })

@@ -1,6 +1,6 @@
 # 권한 설정
 # 필요 없으면 Skip!
-grant all privileges on  *.* to 'root'@'%' identified by 'mysql1234';
+grant all privileges on  *.* to 'root'@'%' identified by 'ik1786329';
 delete from mysql.user where host="localhost" and user="root";
 flush privileges;
 select host,user,plugin,authentication_string from mysql.user;
