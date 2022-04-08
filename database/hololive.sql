@@ -154,7 +154,6 @@ INSERT INTO hololive_list (name, company, division, team, generation, remark,des
 ('이즈츠', '홀로라이브 프로덕션', '홀로라이브', '스태프','스태프','활동 중','','https://w.namu.la/s/676d368e84ce0635a1cf9a4ea7bf1da3cf5eccfe6e854febad6e4948f6e928001cb38dd47d0392ed2da88bddaee523aaaba0f62f3f67a1d46365501a7d88f098d9f59b96005c0e5b3282a6baa483e32e88703744a326ce157024c26dca83c498','https://w.namu.la/s/676d368e84ce0635a1cf9a4ea7bf1da3cf5eccfe6e854febad6e4948f6e928001cb38dd47d0392ed2da88bddaee523aaaba0f62f3f67a1d46365501a7d88f098d9f59b96005c0e5b3282a6baa483e32e88703744a326ce157024c26dca83c498'),
 ('타니고 모토아키', '홀로라이브 프로덕션', '홀로라이브 프로덕션', '대표','대표','활동 중','','https://w.namu.la/s/c500f79561776b1ea698d7bb77f940d8565079c1d89171c376589829208a917ff4de1ee1efa9335cc7e394fef4d156be981a37e675f3e80bac6ef31734327ad5983d94a534432da5cc2c25d62431660486249a627ea6cd86e548bb12d012c620','https://w.namu.la/s/fdd8ded75de72311b15bc35d5d75dff16833f3bf6faff1daea4369611b8a51fbfc560455012bed93cc6d892c44ef9b1ca7b811f3fa068a221145241b57442dc1263891883ec2e68d6b5bd0ae609261813f73e75b1430172e0e34ae13ec408cfbb5d4eee5308d9c2963ab691c22899945');
 
-
 -- INSERT INTO hololive_company (name, company, division, team) VALUES
 --   ('토키노 소라', '홀로라이브 프로덕션','홀로라이브','JP'),
 --   ('로보코', '홀로라이브 프로덕션','홀로라이브','JP'),
