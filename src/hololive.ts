@@ -19,6 +19,14 @@ app.listen('3030', () => {
 	console.log('Server Started')
 })
 
+app.get('/hololive_list', (req: Request, res: Response) => {
+	const query: string = 'select * from hololive_list';
+	dbc.query(query, (err, rows) => {
+		if (err) return console.log(err);
+		res.send(rows);
+	})
+});
+
 app.get('/hololive_company', (req: Request, res: Response) => {
 	const query: string = 'select * from hololive_company';
 	dbc.query(query, (err, rows) => {
@@ -37,14 +45,6 @@ app.get('/hololive_member', (req: Request, res: Response) => {
 
 app.get('/hololive_member_image', (req: Request, res: Response) => {
 	const query: string = 'select * from hololive_member_image';
-	dbc.query(query, (err, rows) => {
-		if (err) return console.log(err);
-		res.send(rows);
-	})
-});
-
-app.get('/hololive_list', (req: Request, res: Response) => {
-	const query: string = 'select * from hololive_list';
 	dbc.query(query, (err, rows) => {
 		if (err) return console.log(err);
 		res.send(rows);
