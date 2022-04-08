@@ -22,8 +22,8 @@ USE hololivedb;
     generation VARCHAR(100) NOT NULL,
     remark VARCHAR(100),
     description VARCHAR(2000),
-    image_url VARCHAR(500),
     profile_image_url VARCHAR(500),
+    image_url VARCHAR(500),
     PRIMARY KEY (id)
 )   ENGINE = InnoDB
     DEFAULT CHARACTER SET utf8 
