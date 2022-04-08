@@ -385,3 +385,4 @@ INSERT INTO hololive_list (name, company, division, team, generation, remark,des
 ('오메가알파', '홀로라이브 프로덕션', '이노나카 뮤직', '스태프','스태프','활동 중','','https://w.namu.la/s/1d4a7855a888aa97628792932d52ca8a2d33fcbd85b19168eff62a41196ebc0fded75435d5537a58276d3b865d58686d59188be1f234d1ee1b35603d0331eabb73190717c732107363a9815cd9e9869b51bcc05aa8ca71ae8028837bc47ba18a684f94cf8a76e7979a0af18193373a04'),
 ('이즈츠', '홀로라이브 프로덕션', '홀로라이브', '스태프','스태프','활동 중','','https://w.namu.la/s/7daf479e6d156165d025dd8a0e9c29170faeaaf06d23d0f8782899e289c0a90182d02ecc9001a93b344f5ca998d7214c7f3ad72ed2fea5faf1ced4e24433a2daa7d6d91e3f7d9f3132442dc2255eb07d7e5871360b377d3055eb28b1c2fa8a65'),
 ('타니고 모토아키', '홀로라이브 프로덕션', '홀로라이브 프로덕션', '대표','대표','활동 중','','https://w.namu.la/s/c500f79561776b1ea698d7bb77f940d8565079c1d89171c376589829208a917ff4de1ee1efa9335cc7e394fef4d156be981a37e675f3e80bac6ef31734327ad5983d94a534432da5cc2c25d62431660486249a627ea6cd86e548bb12d012c620'); # 맨 마지막엔 세미콜론 (;)
+
