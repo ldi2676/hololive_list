@@ -11,12 +11,12 @@ const dbc = mysql.createConnection({
 dbc.connect()
 
 
-app.listen('3000', () => {
+app.listen('3030', () => {
 	console.log("Server Started")
 })
 
 app.get('/',(req,res) => {
-	const query = 'select * from song'
+	const query = 'select * from hololive_list'
 	dbc.query(query,(err,rows)=>{
 		if (err) return console.log(err)
 		res.send(rows)
