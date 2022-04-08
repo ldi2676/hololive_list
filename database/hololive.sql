@@ -23,7 +23,7 @@ USE hololivedb;
     remark VARCHAR(100),
     description VARCHAR(2000),
     image_url VARCHAR(500),
-    profile_url VARCHAR(500),
+    profile_image_url VARCHAR(500),
     PRIMARY KEY (id)
 )   ENGINE = InnoDB
     DEFAULT CHARACTER SET utf8 
@@ -64,7 +64,7 @@ USE hololivedb;
 
 ###############################################
 
-INSERT INTO hololive_list (name, company, division, team, generation, remark,description ,image_url, profile_url) VALUES
+INSERT INTO hololive_list (name, company, division, team, generation, remark,description ,image_url, profile_image_url) VALUES
 ('토키노 소라', '홀로라이브 프로덕션', '홀로라이브', 'JP','0기생','활동 중','토키노 소라는 2017년 9월 7일에 활동을 시작한 버츄얼 유튜버로, 홀로라이브 최초 멤버이다. 활동을 시작할 때는 기수 구분이 없었지만 지금은 홀로라이브 0기생으로 분류된다. 커버 주식회사의 AR/VR 어플리케이션 홀로라이브의 홍보용 캐릭터로 활동을 시작했으며, 홀로라이브 출시 이전부터 유튜브와 니코니코 동화 등의 플랫폼에서 활동했다. 버츄얼 유튜버가 주목을 받던 시기에 유튜버 활동에 집중하면서 인기를 모아 곧 홍보용 캐릭터에 한정되지 않는 유튜버가 되었다.','https://w.namu.la/s/d265a042d73c314d375ba7e6602aed59646e94dc93273914a16169694f34cf3af5a4dab92673d5e299dfd906d45cc81dd9b8b0fb3e56e8e23bb5e255b4f80872767f3c408c410d9158587ee3cb20ac3148c6354df1b9ab30baf5044969017f28','https://w.namu.la/s/d265a042d73c314d375ba7e6602aed59646e94dc93273914a16169694f34cf3af5a4dab92673d5e299dfd906d45cc81dd9b8b0fb3e56e8e23bb5e255b4f80872767f3c408c410d9158587ee3cb20ac3148c6354df1b9ab30baf5044969017f28'),
 ('로보코', '홀로라이브 프로덕션', '홀로라이브', 'JP','0기생','활동 중','로보코 씨는 2018년 3월 4일부터 홀로라이브 소속으로 활동을 시작한 버츄얼 유튜버이다. 지금은 홀로라이브 0기생으로 분류된다. 토키노 소라의 뒤를 이어 데뷔해 오랜 기간동안 홀로라이브 소속으로 활동한 멤버로, 업계 내에서도 최고참 중 한 명으로 자리잡고 있다. 처음부터 버츄얼 유튜버를 위해 만들어진 캐릭터가 아니며, kuromaru9가 개인적으로 만들고 있던 3D 모델이 홀로라이브에 스카웃 된 이후 성우가 붙은 케이스이다. 3D 모델은 2016년 5월 23일에 완성되었으며, 2013년부터 컨셉이 잡혀있었다. 워낙 퀄리티가 좋아 3D 모델링에 관심이 있는 사람들 사이에서는 버츄얼 유튜버로 데뷔하기 전부터 기대를 받고 있었고, 잡담이나 게임 방송같은거나 시키기엔 모델이 너무 아깝다는 불만을 들을 정도로 높은 평가를 받았다.','https://w.namu.la/s/b74e7b8a2761a020c27486f6e6e8fcacf2f9150b082b1c78152377221ee8d10da0caf2b640b3434491ebe177078b6c39687eedfe768da183c0ba13c6cec02a68d32cd760c83625c2422999716381a17c7d994fff49b2994a1ef8939564bf1208',''),
 ('사쿠라 미코', '홀로라이브 프로덕션', '홀로라이브', 'JP','0기생','활동 중','hololive 프로덕션 소속의 버츄얼 유튜버. 2021년 4월 30일 홀로라이브 내에서 14번째, JP 내에서 11번째로 구독자수 100만을 달성했다. 2018년 8월 1일, 커버 산하의 사쿠라 미코 3.5 채널라는 별도의 프로젝트로 데뷔했으며, 이후 홀로라이브 버츄얼 유튜버와 굳이 차별화를 할 필요가 없다고 판단하여 동년 12월 25일 홀로라이브에 소속되었다. 본인이 밝힌 바에 따르면, 3기생 이전 멤버가 대부분 그렇듯이, 오디션이 아닌 YAGOO의 스카우트 연락을 받은 이후에 커버 소속이 되었다고 한다. 사쿠라 미코는 1기생들의 데뷔가 다 끝나고 약 60일 후, 또한 2기생인 미나토 아쿠아가 데뷔하기 약 7일 전에 데뷔했지만, 홀로라이브에 들어온 것은 2기생들보다 늦기 때문에 처음엔 2기생들을 선배로 대하기도 했다.','https://w.namu.la/s/361da941b57421e6b93af78c3a0ca7899a867c52ac44e042a0025e9d29d2b080d804107dd58eeb2e419aad22f18df02c2220c66e81279fd3dfc9cb32224285e005478903a79df797fd06fcb6ddb99e25f4840695fa04d390e0c82d7101e0e0ef',''),
