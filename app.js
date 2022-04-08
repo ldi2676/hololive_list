@@ -11,7 +11,7 @@ const dbc = mysql.createConnection({
 dbc.connect()
 
 
-app.listen('3000', () => {
+app.listen('3030', () => {
 	console.log("Server Started")
 })
 
