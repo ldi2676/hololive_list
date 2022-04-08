@@ -16,7 +16,7 @@ app.listen('3000', () => {
 })
 
 app.get('/',(req,res) => {
-	const query = 'select * from song'
+	const query = 'select * from hololive_list'
 	dbc.query(query,(err,rows)=>{
 		if (err) return console.log(err)
 		res.send(rows)
